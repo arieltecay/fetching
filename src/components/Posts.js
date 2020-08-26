@@ -18,7 +18,7 @@ export default class Posts extends Component{
                 this.state.posts.map(post => {
                     return <div key = {post.id}>
                         <h3>{post.title}</h3>
-                        <p>Pertenece al Usuario: {post.userId}</p>
+                        <p>Pertenece: {post.userId}</p>
                         <p>{post.body}</p>
                     </div>
                 })
